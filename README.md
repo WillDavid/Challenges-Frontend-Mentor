@@ -10,7 +10,7 @@
 
 
 <h2 align="left">:books: O desafio</h2>
-<p><h5>Nome do desafio:</h5> <strong> Article preview component</strong></p>
+<p>Nome do desafio:<strong> Article preview component</strong></p>
 <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT"><p><strong>Clique aqui para visualizar o enunciado</strong></p></a>
 
 
