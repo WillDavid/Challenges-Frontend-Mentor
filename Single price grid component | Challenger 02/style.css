@@ -4,15 +4,17 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-size: 16px;
     font-family: 'Karla', sans-serif;
+    background-color: #E4EDF2;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: #E4EDF2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,6 +86,10 @@ body {
 
 }
 
+.btnSignUp{
+    color: #fff;
+}
+
 .rowLeftContent {
     display: flex;
     justify-content: start;
@@ -116,6 +122,47 @@ body {
 
 .rightContent p {
     margin-bottom: 5px;
+}
+
+
+@media (max-width: 740px){
+
+   
+    .container{
+        background-color: #E4EDF2;
+        height: 100%;
+        
+        
+    }
+    
+    .content {
+        display:block;
+        justify-content:center;
+        align-items:center;
+        margin-top: 20px; 
+        width: 320px;
+        height: 480px;
+    }
+
+    .firstRow {
+        height: auto;
+        justify-content: center;
+    }
+
+    .leftContent {
+        width: 320px;
+
+        float: none;
+        border-radius: 0 0 0 0;
+    }
+
+    .rightContent {
+        width: 320px;
+        float: none;
+        border-radius: 0 0 10px 10px;
+        margin-bottom: 20px;
+    }
+
 }
 
 

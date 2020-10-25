@@ -14,7 +14,7 @@
 <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT"><p><strong>Clique aqui para visualizar o enunciado</strong></p></a>
 
 
-<h3 align="left">:art: Arte do produto </h3>
+<h3 align="left">:art: Arte</h3>
 <img src="https://i.ibb.co/6FNXXNv/The-First-Challenger.png">
 
 

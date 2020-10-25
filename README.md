@@ -7,7 +7,7 @@
 <a href="https://www.frontendmentor.io/dashboard"><strong>Conheça a plataforma</strong></a>
 
 <h2 align="left">:pushpin: Última UI desenvolvida </h2>
-<img src="https://i.ibb.co/6FNXXNv/The-First-Challenger.png">
+<img src="https://i.ibb.co/RS7pd0Z/Single-Price-Grid-Component.png">
 
 <h2 align="left">:fire: Todas as UI</h2>
 <p>:one:<a href="https://github.com/WillDavid/Challenges-Frontend-Mentor/tree/main/Article%20Preview%20Component%20%7C%20Challenger%2001">Article Preview Component | Challenger 01</a></p>
