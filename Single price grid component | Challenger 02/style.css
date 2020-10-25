@@ -55,13 +55,50 @@ body {
 
 /* Second Row */
 
+/* Left*/
+
 .leftContent{
     float: left;
     width: 50%;
     height: 60%;
     background-color: #29A699;
     border-radius: 0 0 0 10px;
+    padding: 40px;
+    color: #fff;
+    font-weight:400;
+
 }
+.leftContent h3 {
+    margin-bottom: 25px;
+}
+
+.leftContent button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.186);
+    margin-top: 20px;
+    width: 100%;
+    height: 48px;
+    font-weight: 700;
+
+}
+
+.rowLeftContent {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.rowLeftContent h1 {
+    margin-right: 15px;
+}
+
+
+/* Right*/
+
 
 .rightContent{
     float: right;
@@ -69,5 +106,20 @@ body {
     height: 60%;
     background-color:#4EBFB4;
     border-radius: 0 0 10px 0;
+    padding: 40px;
+    color: #fff;
 }
+
+.rightContent h3 {
+    margin-bottom: 20px;
+}
+
+.rightContent p {
+    margin-bottom: 5px;
+}
+
+
+
+
+
 
