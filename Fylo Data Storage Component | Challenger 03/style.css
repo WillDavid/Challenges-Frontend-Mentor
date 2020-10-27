@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #0C122C;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconActions {
+    height: 200px;
+    width: 350px;
+    background-color: #1E2C69;
+    margin-right: 30px;
+    border-radius: 10px 100px 10px 10px;
+}
+
+.content {
+    width: 540px;
+    height: 150px;
+    margin-top: 50px;
+    background-color: #1E2C69;
+    border-radius: 10px;
+}
