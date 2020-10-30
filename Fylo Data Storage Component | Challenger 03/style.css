@@ -6,6 +6,9 @@
 
 body {
     background-color: #0C122C;
+    background-image: url('./images/bg-desktop.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
@@ -13,9 +16,11 @@ body {
 .container {
     width: 100vw;
     height: 100vh;
-    display: flex;    font-family: 'Raleway', sans-serif;
+    display: flex;    
+    font-family: 'Raleway', sans-serif;
     justify-content: center;
     align-items: center;
+
 }
 
 .iconActions {
@@ -78,6 +83,7 @@ body {
     border: 2px solid #0C122C;
     border-radius:10px;
 }
+
 .progressBar-inter {
     border-radius:10px;
     height: 13px;
@@ -106,3 +112,97 @@ body {
     color: white;
     margin-top: 10px;
 }
+
+
+.tooltip {
+    position: relative;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 175px;
+    border-radius:10px;
+    height: 75px;
+    bottom: 75px;
+    left: 300px;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tooltip-externo {
+      display: none;
+  }
+
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+  @media (max-width: 740px){
+      html {
+          overflow: hidden;
+      }
+      
+      body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url('./images/bg-mobile.png');
+          background-size: 100vh;
+          background-repeat: no-repeat;
+          background-position: center;
+          
+      }
+      
+      .container {
+          max-width:350px;
+          height: 300px;
+          margin: auto;
+
+          display:block;
+          margin-top: 150px; 
+          width: 320px;
+      }
+
+      .iconActions {
+          width: 100%;
+          margin: auto;
+      }
+
+      .content {
+          width: 100%;
+          margin-top: -20px;
+      }
+
+      .content p {
+          padding-top: 20px;
+          text-align: center;
+      }
+
+      .tooltiptext{
+          display: none;
+      }
+
+      .tooltip-externo {
+          margin-top: 20px;
+          width: 175px;
+          height: 75px;
+          background-color: #ffffff;
+          margin-left: 70px;
+          border-radius: 10px;
+          color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+
+  }
+
