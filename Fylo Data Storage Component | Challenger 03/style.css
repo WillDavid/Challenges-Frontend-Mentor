@@ -6,12 +6,14 @@
 
 body {
     background-color: #0C122C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: flex;    font-family: 'Raleway', sans-serif;
     justify-content: center;
     align-items: center;
 }
@@ -22,6 +24,29 @@ body {
     background-color: #1E2C69;
     margin-right: 30px;
     border-radius: 10px 100px 10px 10px;
+    
+}
+
+#iconLogo {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+
+.icons {
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+
+.icons img {
+    width: 23px;
+    height: 25px;
+    background-color: #0C112C;
+    background-size: cover;
+    border-radius: 10px;
+    border: 15px solid #0C112C;
+    margin-right: 10px;
 }
 
 .content {
@@ -30,4 +55,54 @@ body {
     margin-top: 50px;
     background-color: #1E2C69;
     border-radius: 10px;
+    color: #fff;
+}
+
+.content p{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.progressBar , .storage {
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+
+.progressBar {
+    height: 15px;
+    background-color: #0C122C;
+    border: 2px solid #0C122C;
+    border-radius:10px;
+}
+.progressBar-inter {
+    border-radius:10px;
+    height: 13px;
+    margin-top: 1px;
+    margin-left: 1px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: 80%;
+}
+
+.progressBar-ball {
+    float: right;
+    height: 11px;
+    width: 10px;
+    border-radius:50%;
+    margin-top: 1px;
+    margin-right: 2px;
+    background-color: #fff;
+
+}
+
+
+.storage {
+    display: flex;
+    justify-content: space-between;
+    font-weight:400;
+    color: white;
+    margin-top: 10px;
 }
