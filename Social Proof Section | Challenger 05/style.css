@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    background-image: url('./images/bg-pattern-bottom-desktop.svg');
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.first-row {
+    display: flex;
+}
+
+.second-row {
+    display: flex;
+}
+
+
+/* Card */
+.card {
+    width: 350px;
+    height: 230px;
+    background-color:hsl(300, 43%, 22%); 
+    margin:10px;
+    border-radius:5px;
+    color: #fff;
+
+}
