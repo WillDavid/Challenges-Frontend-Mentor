@@ -4,7 +4,7 @@
 <h2 align="left">:paperclip: O que é o Front-End Mentor?</h2>
 <p>O Frontend Mentor fornece designs para que você possa praticar suas habilidades de front-end usando um fluxo de trabalho da vida real. Os desafios incluem designs (móveis e desktops) e uma guia de estilo. O resto é com você!</p>
 
-<a href="https://www.frontendmentor.io/dashboard"><strong>Conheça a plataforma</strong></a>
+<a href="https://www.frontendmentor.io/dashboard"><strong>Conheça a plataforma Front End Mentor</strong></a>
 
 <h2 align="left">:pushpin: Última UI desenvolvida </h2>
 <img src="https://i.ibb.co/qp7nnmV/Fylo-data-storage-component.png">
