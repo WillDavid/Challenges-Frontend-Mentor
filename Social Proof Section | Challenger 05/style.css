@@ -2,33 +2,42 @@
     margin: 0;
     padding: 0;
 }
-
+/* Mobile First*/
 body{
     overflow: hidden;
     background-image: url('./images/bg-pattern-bottom-desktop.svg');
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-}
-
-.first-row {
-    display: flex;
-}
-
-.second-row {
-    display: flex;
-}
-
 
 /* Card */
+
 .card {
-    width: 350px;
+    width: 325px;
     height: 230px;
     background-color:hsl(300, 43%, 22%); 
-    margin:10px;
     border-radius:5px;
     color: #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding: 20px;
+    
+}
 
+.cardFirstRow {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.cardFirstRow img{
+    border-radius: 50%;
+    margin-right:12px;
+    width: 50px;
+    height: 50px;
+}
+
+.cardSecondRow {
 }
