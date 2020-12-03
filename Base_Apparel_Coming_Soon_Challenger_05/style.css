@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.content {
+    width: 50%;
+    display: block;
+    padding-left: 170px;
+    padding-right: 225px;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    letter-spacing: 15px;
+    color: hsl(0, 6%, 24%);
+}
+
+.content p {
+    margin-bottom: 30px;
+    color: hsl(0, 36%, 70%);
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.input{
+    width: 95%;
+    height: 55px;
+    border-radius: 30px;
+    border: 1px solid hsl(0, 36%, 70%);
+}
+
+.input input{
+    height: 100%;
+    width: 70%;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: 0 none;
+    outline: none;
+    
+
+}
+
+.input button {
+    width: 20%;
+    height: 100%;
+    float: right;
+    border: 0 none;
+    outline: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+}
+
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 150px;
+
+}
+
+
+/*        */
+
+.photo{
+    width: 50%;
+    background-image: url('./images/hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
