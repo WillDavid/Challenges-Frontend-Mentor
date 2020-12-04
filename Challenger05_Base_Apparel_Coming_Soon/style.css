@@ -76,7 +76,7 @@ body {
 }
 
 
-/*        */
+/*    Photo    */
 
 .photo{
     width: 50%;
@@ -84,4 +84,36 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+}
+
+
+/*   MOBILE */
+
+@media(max-width: 740px){
+
+    body{
+        overflow: auto;
+    }
+    .container{
+        display: block;
+    }
+
+    .content{
+        min-width: 350px;
+        height: auto;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 40px;
+    }
+
+    .photo{
+        width: 100%;
+        height: 250px;
+        margin-top:50px;
+    }
+    
 }
