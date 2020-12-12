@@ -39,9 +39,9 @@
 
         <input class="inputForm" type="text" placeholder="First Name">
         <input class="inputForm" type="text" placeholder="Last Name">
-        <input class="inputForm" type="text" placeholder="Email Address">
-        <input class="inputForm" type="text" placeholder="Password">
-        <button class="buttonSubmit">Claim your free trial</button>
+        <input class="inputForm" onblur="validarEmail()" id="email" type="emai" placeholder="Email Address">
+        <input class="inputForm" type="password" placeholder="Password">
+        <button class="buttonSubmit" id="buttonSubmit">Claim your free trial</button>
         <p>
         By clicking the button, you are agreeing to our <strong>Terms and Services</strong>
         </p>
@@ -53,6 +53,8 @@
   </div>
 
 
+
+  <script src="script.js"></script>
 
 
 </body>
