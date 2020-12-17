@@ -72,7 +72,12 @@ body {
 
 .formSignUp input[type=text]{
     padding-left: 5px;
-
+}
+.formSignUp input[type=password]{
+    padding-left: 5px;
+}
+.formSignUp input[type=email]{
+    padding-left: 5px;
 }
 
 .buttonSubmit {

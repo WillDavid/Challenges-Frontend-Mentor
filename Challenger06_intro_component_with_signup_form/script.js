@@ -1,19 +1,21 @@
+const form = document.querySelector('form')
 
 
-function validarEmail(){
-    const email = document.getElementById('email');
+form.addEventListener("submit", (evento) => {
+    evento.preventDefault();
     
-    if(!email.checkValidity()){
-        console.log("oi")
-    }else{
-        console.log("Teste")
+    for(let i=0; i<form.length;i++){
+        const item = form.elements[i];
+        if(item.type !== "submit"){
+            if(item.value === ""){
+                console.log("Preenche tudo!")
+            }
+            else{
+                console.log("Enviado com Sucesso")
+            }
+
+        }
+        
+        
     }
-}
-
-const buttonSubmit = document.getElementById('buttonSubmit')
-
-
-buttonSubmit.onclick =  function(e){
-    
-}
-
+})
