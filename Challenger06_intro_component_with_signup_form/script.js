@@ -11,6 +11,7 @@ form.addEventListener("submit", (evento) => {
                 console.log("Preenche tudo!")
             }
             else{
+                
                 console.log("Enviado com Sucesso")
             }
 
