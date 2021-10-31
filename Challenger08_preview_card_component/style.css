@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 0.9em;
     width: 100vw;
     height: 100vh;
     background-color: hsl(233, 47%, 7%);
@@ -33,7 +33,7 @@ body {
 
 .textDiv h1 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2em;
 }
 
 .textDiv h1, p {
@@ -59,7 +59,7 @@ body {
 }
 
 .data spam {
-    font-size: 13px;
+    font-size: 0.8em;
     color: hsla(0, 0%, 100%, 0.6);
 }
 
@@ -77,6 +77,3 @@ body {
     height: 100%;
     background-color: hsla(277, 64%, 61%, 0.479);
 }
-
-
-
