@@ -17,8 +17,8 @@ body {
 
 .content {
     border-radius: 5px;
-    width: 80%;
-    height: 55%;
+    width: 1108px;
+    height: 450px;
     background-color: hsl(244, 38%, 16%);
     display: flex;
     justify-content: center;
@@ -26,14 +26,14 @@ body {
 }
 
 .textDiv {
-    padding: 60px 100px 0px 60px;
+    padding: 70px 100px 0px 60px;
     width: 50%;
     height: 100%;
 }
 
 .textDiv h1 {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 35px;
 }
 
 .textDiv h1, p {
@@ -41,6 +41,7 @@ body {
 }
 
 .textDiv p {
+    height: auto;
     color: hsla(0, 0%, 100%, 0.75);;
     margin-top: 30px;
     font-weight: 400;
@@ -49,7 +50,7 @@ body {
 
 
 .status {
-    margin-top: 50px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -76,4 +77,14 @@ body {
     width: 100%;
     height: 100%;
     background-color: hsla(277, 64%, 61%, 0.479);
+}
+
+@media (max-width: 840px){
+    body{
+        background-color: blue;
+    }
+
+    .status {
+        margin-top: 10px;
+    }
 }
