@@ -74,6 +74,7 @@ body {
 }
 
 .colorImg {
+    border-radius: 0px 5px 5px 0px;
     width: 100%;
     height: 100%;
     background-color: hsla(277, 64%, 61%, 0.479);
@@ -109,14 +110,18 @@ body {
         margin-bottom: 50px;
     }
     .textDiv {
-    
+        
         text-align: center;
         padding: 30px 10px 30px 10px;
         width: 100%;
     }
 
+    .textDiv h1 {
+        font-size: 28px;
+    }
+
     .textDiv p {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .imgDiv {
