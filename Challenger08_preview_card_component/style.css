@@ -50,7 +50,7 @@ body {
 
 
 .status {
-    margin-top: 70px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -78,13 +78,64 @@ body {
     height: 100%;
     background-color: hsla(277, 64%, 61%, 0.479);
 }
-
-@media (max-width: 840px){
-    body{
-        background-color: blue;
+@media (min-width: 600px) and (max-width: 836px) {
+    .textDiv {
+        padding-right: 30px;
+    }
+    .textDiv h1{
+        font-size: 30px;
+        
     }
 
+    .textDiv p {
+        font-size: px;
+    }
+}
+
+@media (max-width: 630px){
+
+    body {
+        padding: 50px 20px 50px 20px;
+        width: 100vw;
+        height: auto;
+    }
+    
+
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 800px;
+        
+        margin-bottom: 50px;
+    }
+    .textDiv {
+    
+        text-align: center;
+        padding: 30px 10px 30px 10px;
+        width: 100%;
+    }
+
+    .textDiv p {
+        font-size: 17px;
+    }
+
+    .imgDiv {
+        width: 100%;
+        height: 240px;
+        border-radius: 5px 5px 0px 0px;
+        
+    }
+
+    .colorImg {
+        border-radius: 5px 5px 0px 0px;
+    }
     .status {
-        margin-top: 10px;
+        margin-top: 30px;
+        display: block;
+    }
+
+    .data{
+        font-size: 23px;
+        margin-top: 40px;
     }
 }
