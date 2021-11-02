@@ -13,6 +13,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: bgColor;
+    animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 .content {
@@ -23,6 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .textDiv {
@@ -142,5 +147,33 @@ body {
     .data{
         font-size: 23px;
         margin-top: 40px;
+    }
+}
+
+
+
+@keyframes bgColor {
+    0% {
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    25% {
+        background-color: hsl(236, 42%, 15%);
+        
+    }
+
+
+    50% {
+        background-color: hsl(234, 46%, 12%);
+        
+    }
+
+    75% {
+        background-color: hsl(236, 40%, 14%);
+        
+    }
+
+    100% {
+        background-color: hsl(233, 47%, 7%);
     }
 }
